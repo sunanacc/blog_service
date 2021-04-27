@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "sqc",
+    "password": "123456",
+    "database": "blog",
+    "host": "47.100.83.175",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "sqc",
+    "password": "123456",
+    "database": "blog",
+    "host": "47.100.83.175",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "sqc",
+    "password": "123456",
+    "database": "blog",
+    "host": "47.100.83.175",
+    "dialect": "mysql"
+  }
+}
