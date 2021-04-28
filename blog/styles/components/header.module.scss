@@ -1,11 +1,11 @@
 .header{
-  background-color: transparent;
+  background-color: #233233;
+  filter: grayscale(90%);
   padding: .4rem;
   overflow: hidden;
   display: flex;
   justify-content: center;
-  // height: 2.8rem;
-  // border-bottom:1px solid #ccc;
+  top: 0;
   .row {
     border: 1px solid #ccc;
     border-radius: .5rem;
