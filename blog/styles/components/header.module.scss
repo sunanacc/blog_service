@@ -2,27 +2,37 @@
   background-color: transparent;
   padding: .4rem;
   overflow: hidden;
-  height: 2.8rem;
-  border-bottom:1px solid #ccc;
-  .logo{
-    color:#1e90ff;
-    font-size: 1.4rem;
-    text-align: left;
+  display: flex;
+  justify-content: center;
+  // height: 2.8rem;
+  // border-bottom:1px solid #ccc;
+  .row {
+    border: 1px solid #ccc;
+    border-radius: .5rem;
+    width: 65rem;
+    .logo{
+      color:#b4cee9;
+      font-size: 1.4rem;
+      text-align: left;
+    }
+    .txt{
+      font-size: 0.6rem;
+      color: #999;
+      display: inline-block;
+      padding-left: 0.3rem;
+    }
   }
-  .txt{
-    font-size: 0.6rem;
-    color: #999;
-    display: inline-block;
-    padding-left: 0.3rem;
-  }
+  
 }
 
 .menu {
   background-color: transparent;
+  border-bottom: none;
   .item {
     font-size:.7rem !important;
     padding-left:1rem;
     padding-right:1rem;
+    border-bottom: none;
   }
 }
 

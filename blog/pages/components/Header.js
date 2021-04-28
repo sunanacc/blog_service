@@ -9,13 +9,12 @@ import {
 import {Row,Col, Menu, Icon} from 'antd'
 const Header = () => (
   <div className={styles.header}>
-    <Row type="flex" justify="center">
-        <Col xs={24} sm={24} md={10} lg={10} xl={10}>
+    <Row className={styles.row} type="flex" justify="center">
+        <Col xs={24} sm={24} md={10} lg={11} xl={11}>
             <span className={styles.logo}>sunanacc</span>
             <span className={styles.txt}>起风了，唯有努力生存</span>
         </Col>
-
-        <Col xs={0} sm={0} md={14} lg={8} xl={6}>
+        <Col xs={0} sm={0} md={14} lg={8} xl={8}>
             <Menu className={styles.menu} mode="horizontal">
                 <Menu.Item className={styles.item} key="home">
                   <HomeOutlined />
