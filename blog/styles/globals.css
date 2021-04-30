@@ -10,6 +10,13 @@ html {
 body {
   height: 100%;
   overflow-y:scroll;
+  background-image: url(../public/sky.jpg) !important;
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+@media screen and (max-width: 1300px) {
+  
 }
 
 a {
