@@ -30,7 +30,6 @@ const search = (
   <Input className={styles.search} placeholder="请输入" onSearch={onSearch} style={{ width: 160 }} />
 );
 const Header = () => (
-  
   <div className={styles.header}>
     <Row className={styles.row} type="flex" justify="center">
         <Col xs={18} sm={18} md={14} lg={11} xl={11}>

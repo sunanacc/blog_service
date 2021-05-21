@@ -9,8 +9,21 @@
     .row {
         width: 65rem;
     }
-    .box {
+    .box_l {
         border: 1px solid #475a5a;
         border-radius: .5rem;
+    }
+    .box_r {
+        // border: 1px solid #475a5a;
+        // border-radius: .5rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        &>div {
+            border: 1px solid #475a5a;
+            border-radius: .5rem;
+            width: 96%;
+            height: 100%;
+        }
     }
 }
